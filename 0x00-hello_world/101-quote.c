@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * mian -entry point
+ * main -entry point
  *
  * Return: always 0 (Success)
  */

@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * Return: alwasy 0(success)
  */
 int main(void)
@@ -13,7 +13,6 @@ if (alphabet == 'q')
 continue;
 else if (alphabet == 'e')
 continue;
-
 putchar(alphabet);
 }
 putchar('\n');

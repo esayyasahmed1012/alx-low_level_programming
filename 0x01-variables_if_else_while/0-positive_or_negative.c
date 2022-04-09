@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - entry poing 
+ *main - entry poing
  *Return: always 0 (success)
 */
 int main(void)

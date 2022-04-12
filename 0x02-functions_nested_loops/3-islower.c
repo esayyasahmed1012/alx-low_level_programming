@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * _islower- is going to identify the lower case letters
+ * return: o if the if is false and 1 if the if is true
+ * @c: takes a character
  */
 int _islower(int c)
 {

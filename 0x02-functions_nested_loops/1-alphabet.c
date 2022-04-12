@@ -3,6 +3,7 @@
 /**
  * main - the main function of the code
  * Return: always 0 (success)
+ * print_alphabet - prints alpahbet in lowercase 
  */
 void print_alphabet(void)
 {

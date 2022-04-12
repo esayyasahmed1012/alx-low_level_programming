@@ -4,7 +4,7 @@
  * Return: positive value for both positive; and 0 for zero
  *@i: integer to calculate abs
  */
-int _abs(int )
+int _abs(int i)
 {
 if (i < 0)
 {

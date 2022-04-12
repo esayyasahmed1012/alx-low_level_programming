@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - the main function of the code
@@ -15,7 +15,7 @@ void print_alphabet()
 char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-putchar(alphabet);
-putchar('\n');
+_putchar(alphabet);
+_putchar('\n');
 }
 }

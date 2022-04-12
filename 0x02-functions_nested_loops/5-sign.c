@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * pint_sign - will print sign according to the if statment
+ * print_sign - will print sign according to the if statment
  * @n: the number the sign to be printed
  * Return: 1 if th enumber is positve, 0 if zero and negative if it's negative
  */

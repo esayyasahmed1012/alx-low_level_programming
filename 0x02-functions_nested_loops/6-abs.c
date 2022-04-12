@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _abs - is used to return absolute value values
- * Return: positive value for both positive and negative numbers; and 0 for zero
+ * Return: positive value for both positive; and 0 for zero
  *@i: integer to calculate abs
  */
-int _abs (int i)
+int _abs(int )
 {
 if (i < 0)
 {

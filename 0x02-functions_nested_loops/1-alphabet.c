@@ -4,18 +4,10 @@
  * main - the main function of the code
  * Return: always 0 (success)
  */
-void print_alphabet(void);
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return 0;
-}
-void print_alphabet()
-{
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-_putchar(alphabet);
+char i;
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
 _putchar('\n');
-}
 }

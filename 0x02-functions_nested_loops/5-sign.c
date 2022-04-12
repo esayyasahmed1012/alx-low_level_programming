@@ -4,14 +4,14 @@
  * @c:takes character
  * Return: 1 if th enumber is positve, 0 if zero and negative if it's negative
  */
-int print_sign()
-int i;
-if (i > 0)
+int print_sign(int n)
+{
+if (n > 0)
 {
 _putchar('+');
 return (1);
 }
-else if (i == 0)
+else if (n == 0)
 {
 _putchar('0');
 return (0);

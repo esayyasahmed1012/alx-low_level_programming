@@ -1,30 +1,30 @@
 #include <stdio.h>
 /**
- * main - prints fizz for integer divisible by 3 and buzz for 5
- * Return: integer
+ * main - prints fizz for int divisble by 3 and buzz for 5
+ * Return: int
  */
 int main(void)
 {
 int i;
-for (i = 0; i <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 != 0)
 {
 printf("Fizz");
 }
-else if (i % 3 != 0 && i % 5 == 0)
+else if (i % 3 != 0 && i % 5 = 0)
 {
 printf("Buzz");
 }
-else if (i % 3 == 0 && i % 5 == 0)
+else if (i % 3 == 0 && i % 5 = 0)
 {
 printf("FizzBuzz");
 }
 else
 {
-printf("/d", i);
+printf("%d", i);
 }
-if (i != 100)
+if(i != 100)
 putchar(' ');
 else
 putchar('\n');

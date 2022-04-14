@@ -1,4 +1,4 @@
-#inlcud "main.h"
+#inlcude "main.h"
 
 /**
  * print_numbers - prints the number zero to nine

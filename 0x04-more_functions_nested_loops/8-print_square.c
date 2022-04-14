@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * print_square - prints hashtags in square shape
+ * print_square - prints square using hashtag
  * @size: limit
  * Return: void
  */
@@ -20,6 +21,6 @@ _putchar('\n');
 }
 else
 {
--putchar('\n');
+_putchar('\n');
 }
 }

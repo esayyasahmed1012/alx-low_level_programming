@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isupper - checks if the lettter is upper or lowercase
+ * _isupper - checks if the lettter is upper or lowercase
  * @c: print integer
  * Return: returns 0 or 1
  */

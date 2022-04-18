@@ -1,5 +1,7 @@
 #include "main.h"
 /**
+ * is_numerical - check if it is a digit
+ * @n: number
  * _atoi - convert a string to an integer
  * @s: String
  * Return: return the num

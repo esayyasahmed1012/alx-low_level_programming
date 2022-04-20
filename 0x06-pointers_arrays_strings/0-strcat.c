@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: a pointer to a char that will be changed
  * @src: a pointer to a char that will also change
+ * @n: most number of bytes from @src
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)

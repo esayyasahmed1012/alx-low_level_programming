@@ -5,21 +5,14 @@
  * @src: a pointer to a char that will also change
  * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
-int i, j;
-i = 0;
-while (dest[i] != '\0')
+int c, i;
+c = 0;
+while (dest[c])
+c++;
+for (i = 0; i< n && src[i] != '\0'; i++)
 {
-i++;
-}
-j = 0;
-while (src[j] != '\0')
-{
-dest[i] = src[j];
-j++;
-i++;
-}
-dest[i] = '\0';
+dest[c + i] = src[i];
+dest[c + i] = '\0';
 return (dest);
-}

@@ -19,7 +19,8 @@ while (s[c] != '\0')
   * upper letter in array ul and if it
   * is replace it with the value in array n
   */
-{for (i = 0; i < 5; i++)
+{
+for (i = 0; i < 5; i++)
 {
 if (s[c] == sl[i] || s[c] == ul[i])
 {

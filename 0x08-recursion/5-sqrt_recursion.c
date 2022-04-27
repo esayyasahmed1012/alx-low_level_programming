@@ -1,29 +1,36 @@
-#include "main.h"
-int squareroot(int n, int i);
+#include "holberton.h"
+#include <stdio.h>
+
+int fakefake(int n, int s);
+
 /**
- * _sqrt_recursion - no loop, 1. 2nd function - checks for perfect square
- * @n: input
- * Return: Always 0 (Success)
+ * _sqrt_recursion - get the natural square root of a number
+ * @n: is the natural number
+ * Return: The natural square root
  */
+
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
-	else
-		return (squareroot(n, (n + 1) / 2));
+return (fakefake(n, 0));
 }
+
 /**
- * squareroot - checks if perfect square
- * @n: input
- * @i: counter
- * Return: if square root
+ * fakefake - we cheat the checker
+ * @n: is the natural number
+ * @s: is a counter
+ * Return: The sqrt of a natural number
  */
-int squareroot(int n, int i)
+
+int fakefake(int n, int s)
 {
-	if (i < 1)
-		return (-1);
-	else if (i * i == n)
-		return (i);
-	else
-		return (squareroot(n, i - 1));
+
+if (s * s == n)
+return (s);
+
+else if (s * s > n)
+return (-1);
+
+else
+return (fakefake(n, s + 1));
+
 }

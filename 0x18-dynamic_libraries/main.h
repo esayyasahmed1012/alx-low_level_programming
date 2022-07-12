@@ -1,5 +1,5 @@
-#ifndef _MAIN__H
-#define _MAIN__H
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * Structs, enums and unions definitions
@@ -60,4 +60,4 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 
 
-#endif /* _SAMPLE_HEADER_H_ */
+#endif

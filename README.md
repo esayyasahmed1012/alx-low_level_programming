@@ -1,1 +1,1 @@
-this is c project on even more on arrays and poinres
+this is alx-low programming project with c

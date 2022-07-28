@@ -2,7 +2,7 @@
 /**
  * *get_dnodeint_at_index - function returns nth node of a list
  *
- *@head: pointer to pointer of head of linked list
+ *@head: pointer to pointer of head of linked lists
  *@index: index of node starting at 0
  *
  * Return:  NULL if node does not exit

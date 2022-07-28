@@ -7,7 +7,7 @@
 #include <stdio.h>
 /**
  * close_errchk - closes a file descriptor and prints
- * an error message if it fails
+ * an error message if it fail
  *
  * @fd: file descriptor to close
  *
